@@ -428,27 +428,23 @@ namespace ISM6225_Assignment_2_Spring_2022
                 for (int i = 0; i < input.Length; i++)
                 {
                     //Console.WriteLine(input[i]);
-                    //gets the latest position of all each character
+                    //gets the latest position of each character
                     position[input[i]] = i;
                 }
                 int left = 0, right = 0;
                 List<int> output = new List<int>();
-                while (left < input.Length)
-                { 
-                    // right will be allocated to the latest entry of the first element.
-                    right = position[input[left]];
-                    for (int i = left; i < right; i++)
+                for (int i = 0; i < input.Length; i++)
+                {
+                    //Compares right with the iterator and swaps it if iterator > right
+                    right = Math.Max(right, position[input[i]]);
+                    if (i == right)
                     {
-                        //updates right to the last element position of the first part.
-                        right = Math.Max(right, position[input[i]]);
+                        output.Add(i - left + 1);
+                        left = i + 1;
                     }
-                    //Adds the position of the last element to the list.
-                    output.Add(right - left + 1);
-                    //the position of left is updated to the next part.
-                    left = right + 1;
                 }
+                
                 return output;
-
                 
             }
             catch (Exception)
