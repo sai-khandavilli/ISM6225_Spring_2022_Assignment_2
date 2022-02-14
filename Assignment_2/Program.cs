@@ -768,7 +768,9 @@ namespace ISM6225_Assignment_2_Spring_2022
                 bool[][] visited = new bool[n][];
                 for (int i = 0; i < n; i++)
                 {
+                    
                     visited[i] = new bool[n];
+
                 }
 
                 visited[0][0] = true;
