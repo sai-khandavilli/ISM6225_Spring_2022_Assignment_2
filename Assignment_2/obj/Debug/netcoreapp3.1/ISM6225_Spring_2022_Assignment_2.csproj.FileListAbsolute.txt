@@ -1,0 +1,4 @@
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\obj\Debug\netcoreapp3.1\ISM6225_Spring_2022_Assignment_2.GeneratedMSBuildEditorConfig.editorconfig
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\obj\Debug\netcoreapp3.1\ISM6225_Spring_2022_Assignment_2.AssemblyInfoInputs.cache
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\obj\Debug\netcoreapp3.1\ISM6225_Spring_2022_Assignment_2.AssemblyInfo.cs
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\obj\Debug\netcoreapp3.1\ISM6225_Spring_2022_Assignment_2.csproj.CoreCompileInputs.cache

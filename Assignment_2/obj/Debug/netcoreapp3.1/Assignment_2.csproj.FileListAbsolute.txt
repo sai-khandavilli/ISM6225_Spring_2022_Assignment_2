@@ -1,0 +1,14 @@
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\bin\Debug\netcoreapp3.1\Assignment_2.exe
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\bin\Debug\netcoreapp3.1\Assignment_2.deps.json
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\bin\Debug\netcoreapp3.1\Assignment_2.runtimeconfig.json
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\bin\Debug\netcoreapp3.1\Assignment_2.runtimeconfig.dev.json
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\bin\Debug\netcoreapp3.1\Assignment_2.dll
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\bin\Debug\netcoreapp3.1\Assignment_2.pdb
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\obj\Debug\netcoreapp3.1\Assignment_2.csproj.AssemblyReference.cache
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\obj\Debug\netcoreapp3.1\Assignment_2.GeneratedMSBuildEditorConfig.editorconfig
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\obj\Debug\netcoreapp3.1\Assignment_2.AssemblyInfoInputs.cache
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\obj\Debug\netcoreapp3.1\Assignment_2.AssemblyInfo.cs
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\obj\Debug\netcoreapp3.1\Assignment_2.csproj.CoreCompileInputs.cache
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\obj\Debug\netcoreapp3.1\Assignment_2.dll
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\obj\Debug\netcoreapp3.1\Assignment_2.pdb
+A:\BAIS\OneDrive - University of South Florida\Spring-2022\DIS_Distributed Information Systems\Assignments\Assignment_2\Assignment_2\obj\Debug\netcoreapp3.1\Assignment_2.genruntimeconfig.cache
