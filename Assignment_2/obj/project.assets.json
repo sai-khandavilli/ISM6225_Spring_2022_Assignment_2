@@ -1179,11 +1179,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\BAIS\\OneDrive - University of South Florida\\Spring-2022\\DIS_Distributed Information Systems\\Assignments\\ISM6225_Spring_2022_Assignment_2\\Assignment_2\\ISM_6225_Spring_2022_Assignment_2.csproj",
+      "projectUniqueName": "A:\\BAIS\\OneDrive - University of South Florida\\Spring-2022\\DIS_Distributed Information Systems\\Assignments\\ISM6225_Spring_2022_Assignment_2_git\\Assignment_2\\ISM_6225_Spring_2022_Assignment_2.csproj",
       "projectName": "ISM_6225_Spring_2022_Assignment_2",
-      "projectPath": "A:\\BAIS\\OneDrive - University of South Florida\\Spring-2022\\DIS_Distributed Information Systems\\Assignments\\ISM6225_Spring_2022_Assignment_2\\Assignment_2\\ISM_6225_Spring_2022_Assignment_2.csproj",
+      "projectPath": "A:\\BAIS\\OneDrive - University of South Florida\\Spring-2022\\DIS_Distributed Information Systems\\Assignments\\ISM6225_Spring_2022_Assignment_2_git\\Assignment_2\\ISM_6225_Spring_2022_Assignment_2.csproj",
       "packagesPath": "C:\\Users\\Sai Khandavilli\\.nuget\\packages\\",
-      "outputPath": "A:\\BAIS\\OneDrive - University of South Florida\\Spring-2022\\DIS_Distributed Information Systems\\Assignments\\ISM6225_Spring_2022_Assignment_2\\Assignment_2\\obj\\",
+      "outputPath": "A:\\BAIS\\OneDrive - University of South Florida\\Spring-2022\\DIS_Distributed Information Systems\\Assignments\\ISM6225_Spring_2022_Assignment_2_git\\Assignment_2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sai Khandavilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
