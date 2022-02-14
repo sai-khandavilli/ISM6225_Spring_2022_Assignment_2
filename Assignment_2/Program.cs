@@ -716,6 +716,10 @@ namespace ISM6225_Assignment_2_Spring_2022
 
         public static int SwimInWater(int[,] grid)
         {
+
+            //INCORRECT ARRAY DECLARATION IN THE MAIN METHOD. A JAGGED ARRAY HAS TO BE DEFINED WHILE ASSIGNING VARIABLES TO THE 2D ARRAY
+            //PLEASE USE GRID[][] INSTEAD OF GRID[,] IN THE MAIN METHOD.
+            //The following code results in a run time error because of this.  The solution works in an online C# compiler for the same parameters.
             try
             {
                 //write your code here.
@@ -723,17 +727,22 @@ namespace ISM6225_Assignment_2_Spring_2022
                 int left = grid[0,0];
                 int right = n * n - 1;
                 int ans = -1;
+
+                //The left should always be less than right to ensure the path is maintained.
                 while (left <= right)
                 {
+                    //The CanReach method verifies if the destination can be reached for the given left, right and mid variables.
                     int mid = left + (right - left) / 2;
                     var result = CanReach(grid, mid);
                     if (result)
                     {
+                        //if a path can be achieved, the path is shortened.
                         ans = mid;
                         right = mid - 1;
                     }
                     else
                     {
+                        //if a path cannot be achieved, the path time is added by mid+1.
                         left = mid + 1;
                     }
                 }
@@ -748,6 +757,7 @@ namespace ISM6225_Assignment_2_Spring_2022
 
             bool CanReach(int[,] grid, int height)
             {
+                //Initializing X and Y axis for 4 directions.
                 int[] dirY = new int[] { -1, 0, 1, 0 };
                 int[] dirX = new int[] { 0, 1, 0, -1 };
                 int n = grid.Length;
@@ -776,7 +786,7 @@ namespace ISM6225_Assignment_2_Spring_2022
                         {
                             int nextY = curY + dirY[dir];
                             int nextX = curX + dirX[dir];
-                            Console.WriteLine("nextX: "+nextX+" nextY: "+nextY);
+                            //Console.WriteLine("nextX: "+nextX+" nextY: "+nextY);
                             if (nextY >= 0 && nextY < n && nextX >= 0 && nextX < n && !visited[nextY][nextX] && grid[nextY,nextX] <= height)
                             {
                                 visited[nextY][nextX] = true;
