@@ -820,10 +820,10 @@ namespace ISM6225_Assignment_2_Spring_2022
             try
             {
                 //write your code here.
-                int m = word1.Length;
-                int n = word2.Length;
+                int size1 = word1.Length;
+                int size2 = word2.Length;
 
-                int distance = minDistanceSol(word1, word2, m, n);
+                int distance = minDistanceSol(word1, word2, size1, size2);
               
                 return distance;
 
@@ -834,34 +834,34 @@ namespace ISM6225_Assignment_2_Spring_2022
                 throw;
             }
 
-            static int minDistanceSol(String word1, String word2, int m, int n)
+            static int minDistanceSol(String word1, String word2, int size1, int size2)
             {
                 // Return the size of the second string if the first string is empty
-                if (m == 0)
-                    return n;
+                if (size1 == 0)
+                    return size2;
 
                 // Return the size of the first string if the second string is empty
-                if (n == 0)
-                    return m;
+                if (size2 == 0)
+                    return size1;
 
                 // If last characters of two strings are same, consider the rest of the strings.
-                if (word1[m - 1] == word2[n - 1])
-                    return minDistanceSol(word1, word2, m - 1, n - 1);
+                if (word1[size1 - 1] == word2[size2 - 1])
+                    return minDistanceSol(word1, word2, size1 - 1, size2 - 1);
 
                 // If last characters are not same, perform recursion for insert, replace and remove.
 
-                    return min(minDistanceSol(word1, word2, m, n - 1), minDistanceSol(word1, word2, m - 1, n), minDistanceSol(word1, word2, m - 1,n - 1))+1;
+                    return min(minDistanceSol(word1, word2, size1, size2 - 1), minDistanceSol(word1, word2, size1 - 1, size2), minDistanceSol(word1, word2, size1 - 1,size2 - 1))+1;
             }
 
-            static int min(int x, int y, int z)
+            static int min(int a, int b, int c)
             {
                 //Finding the minimum of the three operations performed in the minDistanceSol method
-                if (x <= y && x <= z)
-                    return x;
-                if (y <= x && y <= z)
-                    return y;
+                if (a <= b && a <= c)
+                    return a;
+                if (b <= a && b <= c)
+                    return b;
                 else
-                    return z;
+                    return c;
             }
         }
     }
