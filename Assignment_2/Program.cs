@@ -772,7 +772,7 @@ namespace ISM6225_Assignment_2_Spring_2022
                     visited[i] = new bool[n];
 
                 }
-
+                //initializing the visited bool array to true.
                 visited[0][0] = true;
 
                 while (qy.Count > 0)
@@ -780,12 +780,16 @@ namespace ISM6225_Assignment_2_Spring_2022
                     int sz = qy.Count;
                     for (int k = 0; k < sz; k++)
                     {
+                        //Dequeue everytime the path is traversed forward.
                         int curY = qy.Dequeue();
                         int curX = qx.Dequeue();
+                        
+                        //if the paths intercept, return true.
                         if (curY == n - 1 && curX == n - 1)
                             return true;
                         for (int dir = 0; dir < 4; dir++)
                         {
+                            //Increment one step in all directions
                             int nextY = curY + dirY[dir];
                             int nextX = curX + dirX[dir];
                             //Console.WriteLine("nextX: "+nextX+" nextY: "+nextY);
